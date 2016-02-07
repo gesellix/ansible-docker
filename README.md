@@ -15,7 +15,7 @@ You may choose an explicit tag to select your desired version. Available are:
     docker pull gesellix/ansible:2.0.0.2
 
 _Note_: For Ansible 1.9.4 you'll get a patched Docker module which essentially applies the
-changes from https://github.com/ansible/ansible-modules-core/pull/2258
+changes from [ansible-modules-core#2258](https://github.com/ansible/ansible-modules-core/pull/2258).
 
 
 ## Usage
