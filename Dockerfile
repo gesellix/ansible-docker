@@ -1,10 +1,10 @@
 FROM ubuntu:14.04
 MAINTAINER Tobias Gesellchen <tobias@gesellix.de> (@gesellix)
 
-ENV ANSIBLE_VERSION latest
+ENV ANSIBLE_VERSION 2.0.0.2
 
 RUN apt-get update && \
-    apt-get install -y curl python python-jinja2 python-yaml && \
+    apt-get install -y curl python python-jinja2 python-yaml python-pip && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN echo "downloading Ansible ${ANSIBLE_VERSION}..." && \
