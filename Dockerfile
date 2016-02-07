@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Tobias Gesellchen <tobias@gesellix.de> (@gesellix)
 
-ENV ANSIBLE_VERSION latest
+ENV ANSIBLE_VERSION 2.0.0.2
 
 RUN apt-get update && \
     apt-get install -y curl python python-jinja2 python-yaml && \
