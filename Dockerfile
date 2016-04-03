@@ -1,7 +1,7 @@
 FROM alpine:edge
 MAINTAINER Tobias Gesellchen <tobias@gesellix.de> (@gesellix)
 
-ENV ANSIBLE_VERSION latest
+ENV ANSIBLE_VERSION 2.0.0.2
 ENV ANSIBLE_RELEASE_URL "http://releases.ansible.com/ansible/ansible-${ANSIBLE_VERSION}.tar.gz"
 
 ENV PATH /ansible/bin:/bin:/usr/bin:/sbin:/usr/sbin
