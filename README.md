@@ -13,6 +13,7 @@ You should choose an explicit tag to select your desired version, e.g.:
 
     docker pull gesellix/ansible:1.9.4
     docker pull gesellix/ansible:2.0.2.0
+    docker pull gesellix/ansible:2.1.0.0
 
 The complete list of available tags can be found on the [Docker Hub](https://hub.docker.com/r/gesellix/ansible/tags/).
 
@@ -23,7 +24,7 @@ _Note_: The image for Ansible 1.9.4 is based on Ubuntu instead of Alpine and it 
 
 You can use the Ansible image in your Dockerfile:
 
-    FROM gesellix/ansible:2.0.2.0
+    FROM gesellix/ansible:2.1.0.0
 
     ADD . /ansible
     WORKDIR /ansible
