@@ -12,7 +12,7 @@ The Ansible development snapshot is available as `latest` via:
 You should choose an explicit tag to select your desired version. Available are:
 
     docker pull gesellix/ansible:1.9.4
-    docker pull gesellix/ansible:2.1.2.0
+    docker pull gesellix/ansible:2.2.0.0
 
 The complete list of available tags can be found on the [Docker Hub](https://hub.docker.com/r/gesellix/ansible/tags/).
 
@@ -24,7 +24,7 @@ changes from [ansible-modules-core#2258](https://github.com/ansible/ansible-modu
 
 You can use the Ansible image in your Dockerfile:
 
-    FROM gesellix/ansible:2.1.2.0
+    FROM gesellix/ansible:2.2.0.0
 
     ADD . /ansible
     WORKDIR /ansible
