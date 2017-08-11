@@ -9,7 +9,7 @@ The Ansible development snapshot is available as `latest` via:
 
     docker pull gesellix/ansible:latest
 
-You should choose an explicit tag to select your desired version. Available are:
+You should choose an explicit tag to select your desired version. Available are e.g.:
 
     docker pull gesellix/ansible:1.9.4
     docker pull gesellix/ansible:2.3.1.0
