@@ -1,7 +1,7 @@
 FROM alpine:edge
 MAINTAINER Tobias Gesellchen <tobias@gesellix.de> (@gesellix)
 
-ENV REFRESH_DATE 2017-08-11
+ENV REFRESH_DATE 2018-01-20
 ENV ANSIBLE_VERSION latest
 
 ENV PATH /ansible/bin:/bin:/usr/bin:/sbin:/usr/sbin
